@@ -9,6 +9,14 @@
 *.htm linguist-documentation=false
 *.html linguist-detectable=true
 *.html linguist-documentation=false
+*.mhtm linguist-detectable=true
+*.mhtm linguist-documentation=false
+*.mhtml linguist-detectable=true
+*.mhtml linguist-documentation=false
+*.xhtm linguist-detectable=true
+*.xhtm linguist-documentation=false
+*.xhtml linguist-detectable=true
+*.xhtml linguist-documentation=false
 # Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
 *.yml linguist-detectable=false
 *.yml linguist-documentation=false
@@ -17,6 +25,35 @@
 # Python
 *.py linguist-detectable=true
 *.py linguist-documentation=false
+# CSS
+*.css linguist-detectable=true
+*.css linguist-documentation=false
+# SCSS
+*.scss linguist-detectable=true
+*.scss linguist-documentation=false
+# Less
+*.less linguist-detectable=true
+*.less linguist-documentation=false
+# QML
+*.qml linguist-detectable=true
+*.qml linguist-documentation=false
+# C
+*.c linguist-detectable=true
+*.c linguist-documentation=false
+# C++
+*.cpp linguist-detectable=true
+*.cpp linguist-documentation=false
+*.cxx linguist-detectable=true
+*.cxx linguist-documentation=false
+# ROFF
+*.0 linguist-detectable=false
+*.0 linguist-documentation=false
+*.1 linguist-detectable=false
+*.1 linguist-documentation=false
+*.2 linguist-detectable=false
+*.2 linguist-documentation=false
+*.3 linguist-detectable=false
+*.3 linguist-documentation=false
 # Microsoft Q#
 *.qs linguist-detectable=true
 *.qs linguist-documentation=false
@@ -29,15 +66,23 @@
 *.md linguist-documentation=false
 *.mkd linguist-detectable=false
 *.mkd linguist-documentation=false
+*.mdown linguist-detectable=false
+*.mdown linguist-documentation=false
 *.markdown linguist-detectable=false
 *.markdown linguist-documentation=false
 # Makefile (GNU Make)
 # Do not include, as it is not needed to be shown
 *.mk linguist-detectable=false
 *.mk linguist-documentation=false
+*.mak linguist-detectable=false
+*.mak linguist-documentation=false
+*.make linguist-detectable=false
+*.make linguist-documentation=false
+*.makefile linguist-detectable=false
+*.makefile linguist-documentation=false
 # End of linguist script
 # File info
-# File type: .gitattributes file
-# File version: 1 (Friday, 2021 September 3rd at 8:20 pm)
-# Line count (including blank lines and compiler line): 44
+# File type: .gitattributes file (*.gitattributes)
+# File version: 2 (Tuesday, 2022 March 1st at 7:18 pm)
+# Line count (including blank lines and compiler line): 89
 # End of script
